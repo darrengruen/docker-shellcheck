@@ -30,6 +30,6 @@ docker run -i --rm \
     gruen\shellcheck
 ```
 
-__NOTICE__ the ```name``` parameter, it uses ```"$(date +%H%M%S)"``` to prepend
+__NOTICE__ the ```name``` parameter, it uses ```"$(date +%H%M%S)"``` to append
 a timestamp. This should avoid conflicts when your editor invokes the linter
 several times within a very short period
